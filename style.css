@@ -1,0 +1,25 @@
+html, body { height: 100%; width: 100%;}
+body {
+    background-image: url('./klaris.webp');
+}
+.buttonClass {
+    font-size:15px;
+    font-family:Courier New;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    border-color:rgba(189, 16, 224, 1);
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    text-shadow: 1px 1px 0px rgba(189, 16, 224, 1);
+    background:rgba(128, 44, 201, 1);
+    align-items: center;
+}
+
+.buttonClass:hover {
+  background: rgba(248, 1, 234, 1)
+}
+
